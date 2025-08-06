@@ -1,3 +1,18 @@
+# 项目已停止维护
+由于个人认为传统以 AndroLua 框架为首的项目性能拉跨且框架本身含有蛮多史山代码，且使用 Lua 制作的编辑器容易被注入，用户的安全性不能得到保证。
+
+加上成员白云千载不遵守 Git 提交规范、变量命名不遵守骆驼峰命名法(他使用中文首字母命名法, "菜单" => cd)，不禁让本人好奇这到底有没有意义，成员一边制造原版 AndLua 风格代码，我跟着后边修变量名写逻辑。
+
+本人决定于 7.11 停止开发 AndLua 社区版，与其重复造轮子不如自己创建一个全新的框架(NexLua)。
+
+NexLua 框架使用 C++ 重写了 luajava 逻辑，不再委托给 com.luajava.LuaJavaAPI，减少 JNI 调用开销。重新实现了传统 AndroLua 的所有逻辑与特性，大致与 AndroLua 兼容。
+
+NexLua 编辑器使用 Kotlin + MaterialDesign 3 开发。使用了 LuaJIT 作为主要的编程语言，
+
+目前性能方面和 Luajava 方面以及编辑器方便全方面吊打传统 AndroLua 框架。
+
+NexLua 官方群聊: 954264081。项目正在施工中，项目文档：https://github.com/JustLikeCheese/NexLua-docs，欢迎维护项目文档
+
 # AndLua+ 社区重制版
 > QQ群：954264081，AndLua+ 是一个在安卓手机上使用基于 luajava 的框架进行开发的编辑器。
 
