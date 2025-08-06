@@ -11,7 +11,7 @@ NexLua 编辑器使用 Kotlin + MaterialDesign 3 开发。使用了 LuaJIT 作�
 
 目前性能方面和 Luajava 方面以及编辑器方便全方面吊打传统 AndroLua 框架。
 
-NexLua 官方群聊: 954264081。项目正在施工中，项目文档：https://github.com/JustLikeCheese/NexLua-docs，欢迎维护项目文档
+NexLua 官方群聊: 954264081。项目正在施工中，项目文档：https://github.com/JustLikeCheese/NexLua-docs
 
 # AndLua+ 社区重制版
 > QQ群：954264081，AndLua+ 是一个在安卓手机上使用基于 luajava 的框架进行开发的编辑器。
