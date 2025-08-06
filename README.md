@@ -5,7 +5,7 @@
 
 本人决定于 7.11 停止开发 AndLua 社区版，与其重复造轮子不如自己创建一个全新的框架(NexLua)。
 
-NexLua 框架使用 C++ 重写了 luajava 逻辑，不再委托给 com.luajava.LuaJavaAPI，减少 JNI 调用开销。重新实现了传统 AndroLua 的所有逻辑与特性，大致与 AndroLua 兼容。
+NexLua 框架替换了传统的 Lua，使用了 LuaJIT 替代，提升了整体性能。并使用 C++ 重写了 luajava 逻辑，不再委托给 com.luajava.LuaJavaAPI，减少 JNI 调用开销。重新实现了传统 AndroLua 的所有逻辑与特性，大致与 AndroLua 兼容。
 
 NexLua 编辑器使用 Kotlin + MaterialDesign 3 开发。使用了 LuaJIT 作为主要的编程语言，
 
